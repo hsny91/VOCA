@@ -1,0 +1,1 @@
+let example=document.querySelector('#example');

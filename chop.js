@@ -14,30 +14,25 @@
 //example.innerHTML=v.last('Voca demo');
 
 //graphemeAt
-example.innerHTML=v.graphemeAt('Voca demo',3);
+//example.innerHTML=v.graphemeAt('Voca demo',5);
 
-//v.swapCase;Buyuk harfleri kucuge kucuk harfleri buyuge cevirir.
-//example.innerHTML=v.swapCase('Voca demo');
-
-
-//titleCase; tum ifadenin sadece bas harfleri buyuk
-//example.innerHTML=v.titleCase('voca demo');
-
-//lowerCase
-//example.innerHTML=v.lowerCase('VOCA DEMO');
+//prune: stirngi parametre olarak aldigi sayi uzunlugundaki kismini ekrana yazar. Kelimeleri parcalamaz.
+//example.innerHTML=v.prune('Voca demo',7);
+//example.innerHTML=v.prune('Voca demo',9);
 
 
-//upperCase
-//example.innerHTML=v.upperCase('voca demo');
-/*
-v.
-v.f
-v.graphemeAt
-v.
-v.prune
-v.slice
-v.substr
-v.substring
-v.truncate
-Count
-*/
+//slice; başlangıç ​​konumundan bitiş konumuna kadar string ifadeyi ayıklar. Opsiyonel olarak ucuncu parametreyi alir ve son parametre ifadenin hangi indexe kadar alinacagini belirtir. Son konumdaki karakter dahil değildir
+//example.innerHTML=v.slice('voca demo',2);
+//example.innerHTML=v.slice('voca demo',2,7);
+
+//substr; stringi belirtilen index ten itibaren ayiklar. opsiyonel olarak alidigi ucuncu parametrede ise alinacak olan stringin uzunlugunu belirtir.
+//example.innerHTML=v.substr('VOCA DEMO',2);
+//example.innerHTML=v.substr('VOCA DEMO',2,4);
+
+
+//substring; başlangıç ​​konumundan bitiş konumuna kadar string ifadeyi ayıklar
+//example.innerHTML=v.substring('VOCA DEMO',2,4);
+
+
+//truncate
+//example.innerHTML=v.truncate('voca demo',7);
